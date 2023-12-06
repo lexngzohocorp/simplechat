@@ -11,7 +11,7 @@ function sendMessage() {
     chatLog.innerHTML += "<div class='user-message'>" + userMessage + "</div>";
 
     // Simulate a simple chatbot response
-    var botMessage = "I'm a simple chatbot!";
+    var botMessage = "I'm a simple chatbot! How can i help you today??";
     chatLog.innerHTML += "<div class='bot-message'>" + botMessage + "</div>";
 
     // Clear the user input field
